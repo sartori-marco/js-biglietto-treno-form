@@ -41,14 +41,55 @@
       <!-- SECONDA RIGA -->
       <div class="row">
         <!-- BTN GENERA E ANNULLA -->
-        <a href="#"> <strong><div class="btn">Genera</div></a></strong>
-        <a href="#"> <strong><div class="btn">Annulla</div></a></strong>
+        <a href="#"> <strong><div class="btn" id="genera">Genera</div></a></strong>
+        <a href="#"> <strong><div class="btn" id="annulla">Annulla</div></a></strong>
       </div>
       <!-- END SECONDA RIGA -->
+    </div>
+      <!-- END FORM DATI-->
+      <!-- START BIGLIETTO -->
+    <h2>il tuo biglietto</h2>
+    <div id="biglietto" class="hidden">
+      <h3>Dettaglio passeggeri</h3>
+        <div class="dettaglio-biglietto row">
+          <!-- COL SX -->
+          <div class="col">
+            <h3>Nome passeggero <span id="nome-passeggero"></span>
+            </h3>
+          </div>
+          <!-- END COL SX -->
+          <!-- COL TAB -->
+          <div class="col">
+            <table>
+              <!-- PRIMA RIGA -->
+              <tr>
+                <th>Offerta</th>
+                <th>Carrozza</th>
+                <th>Codice CP</th>
+                <th>Costo biglietto</th>
+              </tr>
+              <!-- END PRIMA RIGA -->
+              <!-- SECONDA RIGA -->
+              <tr>
+                <td>
+                  <span id="offerta"></span>
+                </td>
+                <td><span id="carrozza"></span></td>
+                <td><span id="codice-cp"></span></td>
+                <td><span id="costo-biglietto"></span></td>
+
+              </tr>
+              <!-- END SECONDA RIGA -->
+            </table>
+
+          </div>
+          <!-- END COL TAB -->
+
+        </div>
 
 
     </div>
-      <!-- END FORM DATI-->
+
   </div>
   <!-- END CONTENITORE -->
 
