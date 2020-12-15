@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(148, 0, 98);
+  text-align: center;
+}
+
+h1{
+  color: white;
+  text-transform: uppercase;
+  padding: 20px 0;
+}
+
+.form-dati{
+  background-color: white;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
