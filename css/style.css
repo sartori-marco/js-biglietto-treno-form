@@ -88,6 +88,22 @@ h2{
   margin: auto;
 }
 
+.dettaglio{
+  text-align: left;
+  margin-left: 150px;
+  padding-top: 10px;
+}
+
+.tab-nome{
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+.biglietto-tab{
+  padding: 25px;
+  text-transform: uppercase;
+}
+
 table tr th{
   padding: 10px;
 }

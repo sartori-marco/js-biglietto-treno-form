@@ -12,7 +12,7 @@ function() {
 
 
   var prezzoBiglietto = 0.21 * distanza;
-  var tipoOfferta = 'tariffa standart';
+  var tipoOfferta = 'Tariffa standard';
 
 
 
@@ -34,13 +34,15 @@ function() {
 
   document.getElementById('carrozza').innerHTML = Math.floor(Math.random()* 9) + 1;
 
-  document.getElementById('codice-cp').innerHTML = Math.floor(Math.random( 90000 ) * 100000 );
+  document.getElementById('codice-cp').innerHTML = Math.floor(Math.random() * 90000) + 100000;
 
   document.getElementById('costo-biglietto').innerHTML = prezzoBiglietto.toFixed(2) + ' ' + '€';
 
   document.getElementById('biglietto').className = 'show'
 }
 );
+
+
 
 // BOTONE ANNULLA
 var bottoneAnnulla = document.getElementById("annulla");
