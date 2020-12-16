@@ -34,7 +34,7 @@ function() {
 
   document.getElementById('carrozza').innerHTML = Math.floor(Math.random()* 9) + 1;
 
-  document.getElementById('codice-cp').innerHTML = Math.floor(Math.random() * 90000) + 100000;
+  document.getElementById('codice-cp').innerHTML = Math.floor(Math.random() * (100000 - 90000)) + 90000;
 
   document.getElementById('costo-biglietto').innerHTML = prezzoBiglietto.toFixed(2) + ' ' + '€';
 
